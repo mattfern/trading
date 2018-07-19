@@ -19,8 +19,3 @@ df.to_csv('TSLA.csv')
 
 df = pd.read_csv('tsla.csv', parse_dates=True, index_col=0)
 
-df['Close'].plot()
-plt.show()
-
-
-# print(df.tail())
